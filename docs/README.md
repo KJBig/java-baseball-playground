@@ -38,7 +38,10 @@ X
 - [ ] 재시작 메세지 출력 및 입력.
 
 ## 예외
-X
+- [ ] 입력 값이 모두 숫자가 아닐 경우 IllegalArgumentException이 발생.
+- [ ] 요청된 숫자보다 크거나 작은 사이즈를 입력 했을 경우 IllegalArgumentException이 발생.
+- [ ] 중복된 숫자가 존재할 경우 IllegalArgumentException이 발생.
+
 ## 테스트
 X
 
@@ -54,14 +57,12 @@ X
 
 # InputValidator
 ## 기능
-- [ ] 입력 값이 모두 숫자인지 검증.
-- [ ] 입력 한 수의 길이라 랜덤 넘버의 크기와 같은지 검증.
-- [ ] 입력 한 수 들이 모두 중복되지 않는지 검증.
+- [X] 입력 값이 모두 숫자인지 검증.
+- [X] 입력 한 수의 길이라 랜덤 넘버의 크기와 같은지 검증.
+- [X] 입력 한 수 들이 모두 중복되지 않는지 검증.
 
 ## 예외
-- [ ] 입력 값이 모두 숫자가 아닐 경우 IllegalArgumentException이 발생.
-- [ ] 랜덤 넘버보다 크거나 작은 사이즈를 입력 했을 경우 IllegalArgumentException이 발생.
-- [ ] 중복된 숫자가 존재할 경우 IllegalArgumentException이 발생.
+X
 
 ## 테스트
 - [ ] 입력 값이 모두 숫자가 아닐 경우 IllegalArgumentException이 발생하는지 테스트.
