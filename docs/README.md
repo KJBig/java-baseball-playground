@@ -6,9 +6,9 @@
 - [X] N이 0 혹은 10이상일 경우 IllegalArgumentException 발생.
 
 ## 테스트
-- [ ] N 길이의 랜덤 넘버가 생성되는지 테스트.
-- [ ] 랜덤 넘버의 각 자리가 중보되지 않는지 테스트.
-- [ ] N이 0 혹은 10이상일 경우 IllegalArgumentException이 발생하는지 테스트.
+- [X] N 길이의 랜덤 넘버가 생성되는지 테스트.
+- [X] 랜덤 넘버의 각 자리가 중복되지 않는지 테스트.
+- [X] N이 0 혹은 10이상일 경우 IllegalArgumentException이 발생하는지 테스트.
 
 # GameProcessor
 ## 기능
