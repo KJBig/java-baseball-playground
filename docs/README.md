@@ -3,7 +3,7 @@
 - [X] N자리 수의 각 자리가 중복되지 않는 랜덤 넘버 생성.
 
 ## 예외
-- [ ] N이 0 혹은 10이상일 경우 IllegalArgumentException 발생.
+- [X] N이 0 혹은 10이상일 경우 IllegalArgumentException 발생.
 
 ## 테스트
 - [ ] N 길이의 랜덤 넘버가 생성되는지 테스트.
